@@ -1,0 +1,18 @@
+      <Item>
+        <rasd:AddressOnParent>0</rasd:AddressOnParent>
+        <rasd:AutomaticAllocation>true</rasd:AutomaticAllocation>
+        <rasd:ElementName>CD/DVD Drive 1</rasd:ElementName>
+        <rasd:HostResource>ovf:/file/file2</rasd:HostResource>
+        <rasd:InstanceID>6</rasd:InstanceID>
+        <rasd:Parent>4</rasd:Parent>
+        <rasd:ResourceSubType>vmware.cdrom.remotepassthrough</rasd:ResourceSubType>
+        <rasd:ResourceType>15</rasd:ResourceType>
+      </Item>
+      
+        <References>
+    <File ovf:id="file1" ovf:href="vcsa-qe-rhel-77-20191104-1.vmdk"/>
+    <File ovf:id="file2" ovf:href="vcsa-qe-rhel-77-20191104-2.iso" ovf:size="4497342464"/>
+  </References>
+
+
+
